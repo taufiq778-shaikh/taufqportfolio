@@ -1,0 +1,138 @@
+#home img {
+  animation: float 3s ease-in-out infinite;
+}
+
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+
+.imagemain{
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+}
+
+
+.nav-item-right {
+    margin-left: auto;
+}
+
+
+.navbar {
+     background-color:#f8f9fa;
+}
+
+
+.navbar-image{
+    width: 150px;
+    height: 50px;
+    padding: 0px;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+/* Hero Section */
+#home {
+  background:  linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+}
+
+
+#home h1 span {
+  color: #0dcaf0;
+}
+
+
+.about{
+  background-color: #f0f4ff;
+}
+
+
+/* Skills */
+.Skills{
+  background-color:#ffe0b2;
+  border-radius: 10px;
+}
+
+
+.skill-card {
+  transition: transform 0.3s;
+}
+
+
+.skill-card:hover {
+  transform: translateY(-8px);
+}
+
+
+.language{
+  border-radius: 20px;
+}
+
+
+/* Project Cards */
+.projects{
+  background-color:#f9f9f9;
+
+}
+
+
+.card {
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card-text{
+  font-size: 15px;
+}
+
+
+/*Experience*/
+.Experience{
+  background-color: #e3f2fd;
+}
+
+
+/*Achievements*/
+.Achievements{
+  background-color: #e6fffa;
+}
+
+
+/* Contact */
+.Contact{
+  background-color: #0a192f;
+  color: #ffffff;
+}
+
+
+form input, form textarea {
+  border-radius: 8px;
+}
+
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+
+
+.Logo{
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
